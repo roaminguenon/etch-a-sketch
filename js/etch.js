@@ -1,5 +1,8 @@
 $(document).ready(function() {
-	$("div#container").append($("<div class="grid"></div>"));
-	//$("div#container").add($("<p>hellooo</p>"));
-	console.log("yo")
+
+	for(var i = 0; i < 16; i++ ) {
+		$("#container").append('<div class="grid"></div>');
+	}
+	
+
 })
